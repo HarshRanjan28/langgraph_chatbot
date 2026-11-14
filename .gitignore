@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+myenv/
+
+# Python dependencies
+site-packages/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# LangGraph
+.langgraph_api/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build/cache
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node dependencies (also safe to ignore at root)
+node_modules/
